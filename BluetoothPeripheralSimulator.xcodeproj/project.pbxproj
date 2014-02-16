@@ -51,6 +51,7 @@
 		863EA20B18B1773600B63A67 /* PeripheralController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeripheralController.m; sourceTree = "<group>"; };
 		863EA20C18B1773600B63A67 /* ServiceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceController.h; sourceTree = "<group>"; };
 		863EA20D18B1773600B63A67 /* ServiceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceController.m; sourceTree = "<group>"; };
+		863EA21B18B1812800B63A67 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		86EAA1FD307C4A5A9B0CEC0B /* libPods-BluetoothPeripheralSimulator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BluetoothPeripheralSimulator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE40718B6835468D9A70B761 /* Pods-BluetoothPeripheralSimulator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BluetoothPeripheralSimulator.xcconfig"; path = "Pods/Pods-BluetoothPeripheralSimulator.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +73,7 @@
 		860E471318AFFF870055A30E = {
 			isa = PBXGroup;
 			children = (
+				863EA21B18B1812800B63A67 /* README.md */,
 				863EA1F718B1773600B63A67 /* BluetoothPeripheralSimulator */,
 				860E471E18AFFF870055A30E /* Frameworks */,
 				860E471D18AFFF870055A30E /* Products */,

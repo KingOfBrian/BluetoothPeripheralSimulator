@@ -13,19 +13,6 @@
 #import "ServiceController.h"
 
 
-/*
- * A basic controller for the state of the simulated peripheral.   
- *
- * It adds routes for basic configuration of the peripheral:
- *
- * - Add and remove services.   service can be 'glucose' or 'device_information'
- * POST peripheral/services/:service
- * DELETE peripheral/services/:service
- *
- * - Update advertisement status
- * PUT peripheral/advertise?status=[on|off]&localName=<advertiseName>
- *
- */
 @interface PeripheralController : NSObject
 
 @property (nonatomic, strong) CBPeripheralManager *peripheral;
