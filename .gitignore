@@ -1,0 +1,51 @@
+# Emacs temporary files.
+.#*
+*~
+\#*#
+
+
+# Xcode
+external/LibMeters/build
+build/*
+Build/*
+DerivedData
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+!DMA.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+
+
+# OSX
+.DS_Store
+# Thumbnails
+._*
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Ignore Buildozer output files
+Distribution/
+dist/
+
+# Ignore auto-generated scripts
+tools/bin/run_unit_tests.sh
+
+# Ignore code coverage temp files
+tools/XcodeCoverage/env.sh
+
+# Diagnostic output from edge
+debug.txt
+
+# Gems
+gems
+.bundle

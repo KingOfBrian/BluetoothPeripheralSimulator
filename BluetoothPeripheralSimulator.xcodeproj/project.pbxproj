@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		860E472018AFFF870055A30E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860E471F18AFFF870055A30E /* Cocoa.framework */; };
+		860E475A18B036FC0055A30E /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860E475918B036FC0055A30E /* IOBluetooth.framework */; };
+		863EA20E18B1773600B63A67 /* BluetoothDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 863EA1F918B1773600B63A67 /* BluetoothDefines.m */; };
+		863EA20F18B1773600B63A67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 863EA1FB18B1773600B63A67 /* AppDelegate.m */; };
+		863EA21018B1773600B63A67 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 863EA1FC18B1773600B63A67 /* MainMenu.xib */; };
+		863EA21118B1773600B63A67 /* BluetoothPeripheralSimulator-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 863EA1FE18B1773600B63A67 /* BluetoothPeripheralSimulator-Info.plist */; };
+		863EA21218B1773600B63A67 /* DeviceInformationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 863EA20118B1773600B63A67 /* DeviceInformationService.m */; };
+		863EA21318B1773600B63A67 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 863EA20218B1773600B63A67 /* Credits.rtf */; };
+		863EA21418B1773600B63A67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 863EA20418B1773600B63A67 /* InfoPlist.strings */; };
+		863EA21518B1773600B63A67 /* GlucoseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 863EA20718B1773600B63A67 /* GlucoseService.m */; };
+		863EA21618B1773600B63A67 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 863EA20818B1773600B63A67 /* Images.xcassets */; };
+		863EA21718B1773600B63A67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 863EA20918B1773600B63A67 /* main.m */; };
+		863EA21818B1773600B63A67 /* PeripheralController.m in Sources */ = {isa = PBXBuildFile; fileRef = 863EA20B18B1773600B63A67 /* PeripheralController.m */; };
+		863EA21918B1773600B63A67 /* ServiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 863EA20D18B1773600B63A67 /* ServiceController.m */; };
+		D095F792C5914F1A90DBCEFF /* libPods-BluetoothPeripheralSimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86EAA1FD307C4A5A9B0CEC0B /* libPods-BluetoothPeripheralSimulator.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		860E471C18AFFF870055A30E /* BluetoothPeripheralSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothPeripheralSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		860E471F18AFFF870055A30E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		860E472218AFFF870055A30E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		860E472318AFFF870055A30E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		860E472418AFFF870055A30E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		860E473E18AFFF870055A30E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		860E475918B036FC0055A30E /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+		863EA1F818B1773600B63A67 /* BluetoothDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothDefines.h; sourceTree = "<group>"; };
+		863EA1F918B1773600B63A67 /* BluetoothDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothDefines.m; sourceTree = "<group>"; };
+		863EA1FA18B1773600B63A67 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		863EA1FB18B1773600B63A67 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		863EA1FD18B1773600B63A67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		863EA1FE18B1773600B63A67 /* BluetoothPeripheralSimulator-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BluetoothPeripheralSimulator-Info.plist"; sourceTree = "<group>"; };
+		863EA1FF18B1773600B63A67 /* BluetoothPeripheralSimulator-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BluetoothPeripheralSimulator-Prefix.pch"; sourceTree = "<group>"; };
+		863EA20018B1773600B63A67 /* DeviceInformationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInformationService.h; sourceTree = "<group>"; };
+		863EA20118B1773600B63A67 /* DeviceInformationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInformationService.m; sourceTree = "<group>"; };
+		863EA20318B1773600B63A67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		863EA20518B1773600B63A67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		863EA20618B1773600B63A67 /* GlucoseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlucoseService.h; sourceTree = "<group>"; };
+		863EA20718B1773600B63A67 /* GlucoseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlucoseService.m; sourceTree = "<group>"; };
+		863EA20818B1773600B63A67 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		863EA20918B1773600B63A67 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		863EA20A18B1773600B63A67 /* PeripheralController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeripheralController.h; sourceTree = "<group>"; };
+		863EA20B18B1773600B63A67 /* PeripheralController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeripheralController.m; sourceTree = "<group>"; };
+		863EA20C18B1773600B63A67 /* ServiceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceController.h; sourceTree = "<group>"; };
+		863EA20D18B1773600B63A67 /* ServiceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceController.m; sourceTree = "<group>"; };
+		86EAA1FD307C4A5A9B0CEC0B /* libPods-BluetoothPeripheralSimulator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BluetoothPeripheralSimulator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE40718B6835468D9A70B761 /* Pods-BluetoothPeripheralSimulator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BluetoothPeripheralSimulator.xcconfig"; path = "Pods/Pods-BluetoothPeripheralSimulator.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		860E471918AFFF870055A30E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860E475A18B036FC0055A30E /* IOBluetooth.framework in Frameworks */,
+				860E472018AFFF870055A30E /* Cocoa.framework in Frameworks */,
+				D095F792C5914F1A90DBCEFF /* libPods-BluetoothPeripheralSimulator.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		860E471318AFFF870055A30E = {
+			isa = PBXGroup;
+			children = (
+				863EA1F718B1773600B63A67 /* BluetoothPeripheralSimulator */,
+				860E471E18AFFF870055A30E /* Frameworks */,
+				860E471D18AFFF870055A30E /* Products */,
+				CE40718B6835468D9A70B761 /* Pods-BluetoothPeripheralSimulator.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		860E471D18AFFF870055A30E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				860E471C18AFFF870055A30E /* BluetoothPeripheralSimulator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		860E471E18AFFF870055A30E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				860E475918B036FC0055A30E /* IOBluetooth.framework */,
+				860E471F18AFFF870055A30E /* Cocoa.framework */,
+				860E473E18AFFF870055A30E /* XCTest.framework */,
+				860E472118AFFF870055A30E /* Other Frameworks */,
+				86EAA1FD307C4A5A9B0CEC0B /* libPods-BluetoothPeripheralSimulator.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		860E472118AFFF870055A30E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				860E472218AFFF870055A30E /* AppKit.framework */,
+				860E472318AFFF870055A30E /* CoreData.framework */,
+				860E472418AFFF870055A30E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		863EA1F718B1773600B63A67 /* BluetoothPeripheralSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				863EA21A18B1774000B63A67 /* Support Files */,
+				863EA1F818B1773600B63A67 /* BluetoothDefines.h */,
+				863EA1F918B1773600B63A67 /* BluetoothDefines.m */,
+				863EA1FA18B1773600B63A67 /* AppDelegate.h */,
+				863EA1FB18B1773600B63A67 /* AppDelegate.m */,
+				863EA20A18B1773600B63A67 /* PeripheralController.h */,
+				863EA20B18B1773600B63A67 /* PeripheralController.m */,
+				863EA20C18B1773600B63A67 /* ServiceController.h */,
+				863EA20D18B1773600B63A67 /* ServiceController.m */,
+				863EA20018B1773600B63A67 /* DeviceInformationService.h */,
+				863EA20118B1773600B63A67 /* DeviceInformationService.m */,
+				863EA20618B1773600B63A67 /* GlucoseService.h */,
+				863EA20718B1773600B63A67 /* GlucoseService.m */,
+			);
+			path = BluetoothPeripheralSimulator;
+			sourceTree = "<group>";
+		};
+		863EA21A18B1774000B63A67 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				863EA1FC18B1773600B63A67 /* MainMenu.xib */,
+				863EA1FE18B1773600B63A67 /* BluetoothPeripheralSimulator-Info.plist */,
+				863EA1FF18B1773600B63A67 /* BluetoothPeripheralSimulator-Prefix.pch */,
+				863EA20218B1773600B63A67 /* Credits.rtf */,
+				863EA20418B1773600B63A67 /* InfoPlist.strings */,
+				863EA20818B1773600B63A67 /* Images.xcassets */,
+				863EA20918B1773600B63A67 /* main.m */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		860E471B18AFFF870055A30E /* BluetoothPeripheralSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 860E474D18AFFF870055A30E /* Build configuration list for PBXNativeTarget "BluetoothPeripheralSimulator" */;
+			buildPhases = (
+				3764262FCD534ACAB61ACC49 /* Check Pods Manifest.lock */,
+				860E471818AFFF870055A30E /* Sources */,
+				860E471918AFFF870055A30E /* Frameworks */,
+				860E471A18AFFF870055A30E /* Resources */,
+				59D36734622D471898E0AE1C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluetoothPeripheralSimulator;
+			productName = BKBluetoothPeripheralSimulator;
+			productReference = 860E471C18AFFF870055A30E /* BluetoothPeripheralSimulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		860E471418AFFF870055A30E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BK;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Brian King";
+			};
+			buildConfigurationList = 860E471718AFFF870055A30E /* Build configuration list for PBXProject "BluetoothPeripheralSimulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 860E471318AFFF870055A30E;
+			productRefGroup = 860E471D18AFFF870055A30E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				860E471B18AFFF870055A30E /* BluetoothPeripheralSimulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		860E471A18AFFF870055A30E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863EA21118B1773600B63A67 /* BluetoothPeripheralSimulator-Info.plist in Resources */,
+				863EA21618B1773600B63A67 /* Images.xcassets in Resources */,
+				863EA21418B1773600B63A67 /* InfoPlist.strings in Resources */,
+				863EA21318B1773600B63A67 /* Credits.rtf in Resources */,
+				863EA21018B1773600B63A67 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3764262FCD534ACAB61ACC49 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		59D36734622D471898E0AE1C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-BluetoothPeripheralSimulator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		860E471818AFFF870055A30E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863EA21718B1773600B63A67 /* main.m in Sources */,
+				863EA21818B1773600B63A67 /* PeripheralController.m in Sources */,
+				863EA20F18B1773600B63A67 /* AppDelegate.m in Sources */,
+				863EA20E18B1773600B63A67 /* BluetoothDefines.m in Sources */,
+				863EA21518B1773600B63A67 /* GlucoseService.m in Sources */,
+				863EA21918B1773600B63A67 /* ServiceController.m in Sources */,
+				863EA21218B1773600B63A67 /* DeviceInformationService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		863EA1FC18B1773600B63A67 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				863EA1FD18B1773600B63A67 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		863EA20218B1773600B63A67 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				863EA20318B1773600B63A67 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		863EA20418B1773600B63A67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				863EA20518B1773600B63A67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		860E474B18AFFF870055A30E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		860E474C18AFFF870055A30E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		860E474E18AFFF870055A30E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE40718B6835468D9A70B761 /* Pods-BluetoothPeripheralSimulator.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BluetoothPeripheralSimulator/BluetoothPeripheralSimulator-Prefix.pch";
+				INFOPLIST_FILE = "BluetoothPeripheralSimulator/BluetoothPeripheralSimulator-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = BluetoothPeripheralSimulator;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		860E474F18AFFF870055A30E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE40718B6835468D9A70B761 /* Pods-BluetoothPeripheralSimulator.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BluetoothPeripheralSimulator/BluetoothPeripheralSimulator-Prefix.pch";
+				INFOPLIST_FILE = "BluetoothPeripheralSimulator/BluetoothPeripheralSimulator-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = BluetoothPeripheralSimulator;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		860E471718AFFF870055A30E /* Build configuration list for PBXProject "BluetoothPeripheralSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860E474B18AFFF870055A30E /* Debug */,
+				860E474C18AFFF870055A30E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		860E474D18AFFF870055A30E /* Build configuration list for PBXNativeTarget "BluetoothPeripheralSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860E474E18AFFF870055A30E /* Debug */,
+				860E474F18AFFF870055A30E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 860E471418AFFF870055A30E /* Project object */;
+}
